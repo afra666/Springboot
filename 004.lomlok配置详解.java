@@ -1,0 +1,1 @@
+http://kriszhang.com/lombok/
