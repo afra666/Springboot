@@ -1,12 +1,12 @@
-****
-1.添加pom.xml依赖    
+
+****************************************************1.添加pom.xml依赖    
   <dependency>    
               <groupId>org.projectlombok</groupId>    
               <artifactId>lombok</artifactId>    
               <optional>true</optional>    
   </dependency>    
-****
-2.Person.java<br>    
+
+****************************************************2.Person.java  
 package p.controller;    
 
 import lombok.AllArgsConstructor;    
@@ -21,8 +21,7 @@ public class Person {
     private String name;    
     private String pwd;    
 }    
-****    
-3.PersonController.java<br>    
+****************************************************3.PersonController.java
 package p.controller;    
     
 import org.springframework.web.bind.annotation.GetMapping;    
@@ -38,8 +37,7 @@ public class PersonController {
         return person;    
     }    
 }    
-****    
-4.测试页面<br>    
+****************************************************4.测试页面  
 http://localhost:8080/person    
 
 
