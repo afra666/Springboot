@@ -1,5 +1,6 @@
 ****************************************************准备工作
-下载lombok
+    a.下载lombok
+    b.设置IDEA自动引入补全：Annotation Processors---->Enable annotation processing
 ****************************************************1.添加pom.xml依赖    【双击@Data】---->【add maven dependency】------>【add class】
   <dependency>    
               <groupId>org.projectlombok</groupId>    
