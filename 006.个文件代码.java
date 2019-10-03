@@ -1,5 +1,6 @@
-
-****************************************************1.添加pom.xml依赖    
+****************************************************准备工作
+下载lombok
+****************************************************1.添加pom.xml依赖    【双击@Data】---->【add maven dependency】------>【add class】
   <dependency>    
               <groupId>org.projectlombok</groupId>    
               <artifactId>lombok</artifactId>    
