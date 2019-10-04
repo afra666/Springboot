@@ -1,0 +1,26 @@
+1.pom.xml更改三处
+    <groupId>sbg100406</groupId>
+    <artifactId>sba100406</artifactId>
+<version>0.0.1-SNAPSHOT</version>
+    <name>sba100406</name>
+
+2.入口程序更改两处
+public class Sba100406Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Sba100406Application.class, args);
+    }
+}
+
+3.入口程序文件名更改
+Sba100406Application.java
+
+4.test文件夹修改类名一处
+public class Sba100406ApplicationTests {
+
+    @Test
+    public void contextLoads() {
+    }
+
+}
+5.test修改文件名
