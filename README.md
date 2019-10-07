@@ -8,10 +8,10 @@ Springboot
 ***
 3.设置Idea->Setting->processing Enable  
 ***
-4.设置阿里云仓库  
-p
-`<repositories>
-   `<repository>
+4.设置阿里云仓库:  
+`<html>
+<repositories>
+   <repository>
         <id>central</id>  
         <name>aliyun maven</name>  
         <url>http://maven.aliyun.com/nexus/content/groups/public/</url>  
@@ -26,4 +26,5 @@ p
         </snapshots>  
     </repository>  
 </repositories> 
+</html>`
 ***
