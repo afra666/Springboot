@@ -3,13 +3,13 @@ Springboot
 
 ***
 1.创建Springboot Web工程   
-**
+***
 2.开启右下角-Auto自动补充  
-**
+***
 3.设置Idea->Setting->processing Enable  
-**
+***
 4.设置阿里云仓库  
-{% highlight html linenos %}
+```html```
 <repositories>  
     <repository>  
         <id>central</id>  
@@ -26,5 +26,5 @@ Springboot
         </snapshots>  
     </repository>  
 </repositories> 
-**
-{% endhighlight %}
+***
+```html```
