@@ -8,23 +8,8 @@ Springboot
 ***
 3.设置Idea->Setting->processing Enable  
 ***
-4.设置阿里云仓库:  
-`<html>
-<repositories>
-   <repository>
-        <id>central</id>  
-        <name>aliyun maven</name>  
-        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>  
-        <layout>default</layout>  
-        <!-- 是否开启发布版构件下载 -->  
-        <releases>  
-            <enabled>true</enabled>  
-        </releases>  
-        <!-- 是否开启快照版构件下载 -->  
-        <snapshots>  
-            <enabled>false</enabled>  
-        </snapshots>  
-    </repository>  
-</repositories> 
-</html>`
+4.设置阿里云仓库   
+https://github.com/afra666/Springboot/edit/master/014.pom-aliyun.xml   
+https://yq.aliyun.com/articles/695269    
+
 ***
