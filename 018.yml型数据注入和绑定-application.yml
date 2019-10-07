@@ -1,0 +1,19 @@
+//application.yml
+server:
+  port: 1021
+
+student:
+  name: zs
+  age: 23
+  sex: true
+  birthday: 2099/02/12
+  location: {provice: 海南,city: 三亚}
+  hobbies:
+    - 足球
+    - 篮球
+  skills:
+    - 编程
+    - 金融
+  Pet:
+    name: dogy
+    color: black
