@@ -1,5 +1,5 @@
-# Springboot
-Springboot
+# Springboot 创建Web工程
+Springboot 
 
 ***
 1.创建Springboot Web工程   
@@ -9,7 +9,7 @@ Springboot
 3.设置Idea->Setting->processing Enable  
 **
 4.设置阿里云仓库  
-
+{% highlight html linenos %}
 <repositories>  
     <repository>  
         <id>central</id>  
@@ -27,3 +27,4 @@ Springboot
     </repository>  
 </repositories> 
 **
+{% endhighlight %}
