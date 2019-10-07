@@ -10,8 +10,8 @@ Springboot
 ***
 4.设置阿里云仓库  
 p
-`<repositories>  `
-   ' <repository>  '
+`<repositories>
+   `<repository>
         <id>central</id>  
         <name>aliyun maven</name>  
         <url>http://maven.aliyun.com/nexus/content/groups/public/</url>  
