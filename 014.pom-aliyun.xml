@@ -1,4 +1,6 @@
+
 <repositories>
+    <!--    添加aliyun仓库-->
     <repository>
         <id>central</id>
         <name>aliyun maven</name>
@@ -60,6 +62,7 @@
     </build>
 
     <repositories>
+        <!--    添加aliyun仓库-->
         <repository>
             <id>central</id>
             <name>aliyun maven</name>
