@@ -1,0 +1,22 @@
+
+server.port=80
+my.msg="this is a note"
+
+========================================
+
+package g5.a5.controller;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+@Value("${my.msg}")
+private String msg;
+
+    @GetMapping("")
+    public String toString() {
+        return msg;
+    }
+}
