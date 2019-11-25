@@ -19,7 +19,9 @@ public class A2Application {
     }
 
 }
+//========================================================================
+Process process=Runtime.getRuntime().exec(new String[]{
+                "sh","-c",
+                "echo abcde > ./bb.txt"
+        });
 
-/***
-
- */
